@@ -3,12 +3,12 @@ public class Main {
         System.out.println("Hello world!");
         System.out.println("Hi World");
 
+        int a = 5;
 
-
-
-        int a_b = 22;
-
-        if(a_b==45){System.out.println("YES");}
-
+        if (a == (int) (Math.random() * 10)) {
+            System.out.println("YES");
+        } else {
+            System.out.println("NO");
+        }
     }
 }
