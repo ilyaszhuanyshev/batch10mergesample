@@ -10,5 +10,8 @@ public class Main {
         } else {
             System.out.println("NO");
         }
+
+        System.out.println("HELLO");
+
     }
 }
